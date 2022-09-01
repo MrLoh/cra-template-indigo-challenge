@@ -1,0 +1,24 @@
+{
+  "name": "cra-template-indigo-challenge-markdown-editor",
+  "version": "1.0.0",
+  "description": "Create React App template for the Indigo Markdown Editor code challenge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cra-template-tandem-challenge"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "endOfLine": "auto",
+    "quoteProps": "consistent",
+    "printWidth": 100
+  }
+}
