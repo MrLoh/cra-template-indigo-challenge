@@ -1,3 +1,12 @@
+type Block = {
+  element: 'ul' | 'li' | 'p' | 'h1' | 'h2';
+  children: (Block | string)[];
+};
+
+const parseMarkdown = (markdown: string): Block[] => {
+  // TODO: implement
+};
+
 function App() {
   return (
     <div>
